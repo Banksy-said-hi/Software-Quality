@@ -1,0 +1,28 @@
+Metamorphic Relations (MRs):
+	- MR: Adding Filters Reduces Results
+	Scenario: Perform a search without any filters, then add a filter (e.g., “Free Wi-Fi”).
+	Expectation: The number of results should decrease or stay the same.
+
+	- MR: Removing Filters Increases Results
+	Scenario: Start with a filtered search (e.g., “Pool”), then remove the filter.
+	Expectation: The number of results should increase or stay the same.
+
+	- MR: Sorting Results Consistency
+	Scenario: Sort the results by price (low to high) and then by rating (high to low).
+	Expectation: The total number of results should remain the same.
+
+	- MR: Location-Based Subset
+	Scenario: Search for hotels in a broader area (e.g., “Berlin”) and then in a specific district (e.g., “Berlin-Mitte”).
+	Expectation: Results in the specific district should be a subset of the broader area.
+
+	- MR: Changing Dates Affects Availability
+	Scenario: Search for hotels on one set of dates and then extend the date range.
+	Expectation: More hotels should show availability or stay the same.
+
+	- MR: Adding Guests Should Not Remove Hotels
+	Scenario: Search for 1 guest, then increase the number of guests to 4.
+    Expectation: Results should stay the same or include hotels that can accommodate the new guest count.
+
+
+
+
