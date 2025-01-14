@@ -21,7 +21,7 @@ Metamorphic Relations (MRs):
 
 	- MR: Adding Guests Should Not Remove Hotels
 	Scenario: Search for 1 guest, then increase the number of guests to 4.
-    Expectation: Results should stay the same or include hotels that can accommodate the new guest count.
+    	Expectation: Results should stay the same or include hotels that can accommodate the new guest count.
 
 
 
